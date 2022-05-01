@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConsultarScreen">
+
+    <EditText
+        android:id="@+id/etciudadConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_ciudad_a_consultar"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <Button
+        android:id="@+id/btn_consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Buscar"
+        android:text="@string/consultardatos" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pa_s"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etnombrePais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none"
+        android:lineSpacingExtra="8sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ciudad"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etnombreCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none"
+        android:lineSpacingExtra="8sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/poblaci_n"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etcantPoblacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none"
+        android:lineSpacingExtra="8sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+</LinearLayout>

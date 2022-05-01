@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".BorrarCiudadScreen">
+
+    <EditText
+        android:id="@+id/etciudadeliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_ciudad_a_eliminar"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/eliminaruna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Eliminar"
+        android:text="@string/eliminar_ciudad" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="47dp" />
+
+    <Button
+        android:id="@+id/eliminartodas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="EliminarTodo"
+        android:text="@string/eliminar_todas_las_ciudades" />
+</LinearLayout>

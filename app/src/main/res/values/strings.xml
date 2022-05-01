@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Proyecto Capitales</string>
+    <string name="ingrese_un_pais">Ingrese Pais</string>
+    <string name="ingrese_una_ciudad_capital">Ingrese una Ciudad Capital</string>
+    <string name="ingrese_poblacion">Ingrese Poblacion</string>
+    <string name="agregar">Agregar</string>
+    <string name="borrar_ciudad">BORRAR CIUDAD</string>
+    <string name="modificar_poblacion">MODIFICAR POBLACION</string>
+    <string name="consultar">Consultar</string>
+    <string name="eliminar_ciudad">Eliminar Ciudad</string>
+    <string name="ingrese_ciudad_a_eliminar">Ingrese ciudad a eliminar</string>
+    <string name="eliminar_todas_las_ciudades">Eliminar Todas las Ciudades</string>
+    <string name="consultardatos">CONSULTAR</string>
+    <string name="ingrese_ciudad_a_consultar">Ingrese Ciudad a Consultar</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="pa_s">País:</string>
+    <string name="poblaci_n">Población:</string>
+    <string name="ingrese_la_nueva_poblacion_de_la_ciudad">Ingrese la nueva poblacion de la ciudad</string>
+    <string name="ingrese_la_ciudad_ha_modificar">Ingrese la ciudad ha modificar</string>
+</resources>
